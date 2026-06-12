@@ -1,6 +1,6 @@
 # Notes
 
-This is a due-diligence-agent for Swiss companies. The idea is to have a LangGraph workflow which validates defined flags. To do that, it scrapes the website, background-checks key employees, crawls extrenal registries, and aggregates all retrieved information to then deterministically set the flags. These flags have different weight and can range from informative to critical. Therefore, in a later step, a machine learning model can be trained on these flags to evaluate their importants and output a risk score between 0 and 1. To remain compliant to data privacy regulations, absolutely no personal data is permanently stored. A few first flags to validate could be (just as first draft / idea):
+This is a due-diligence-agent for Swiss companies. The idea is to have a LangGraph workflow which validates defined flags. To do that, it scrapes the website, background-checks key employees, crawls external registries, and aggregates all retrieved information to then deterministically set the flags. These flags have different weights and can range from informative to critical. Therefore, in a later step, a machine learning model can be trained on these flags to evaluate their importance and output a risk score between 0 and 1. To remain compliant to data privacy regulations, absolutely no personal data is stored. A few first flags to validate could be (just as first draft / idea):
 
 ON WEBSITE:
 - Website address does not match registered seat/contact address.
